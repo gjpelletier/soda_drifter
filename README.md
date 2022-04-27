@@ -1,7 +1,16 @@
 # soda_drifter
 Matlab scripts to track the trajectories of passive drifters for any locations in the North Pacific Ocean using velocity vectors from SODA3.12.2 
 
-The soda_drifter.m script calculates the trajectories of drifters using either forward or reverse particle tracking. The u and v velocity vectors used by soda_driter.m are read from a netcdf file that was made by running the following scripts:
+The soda_drifter.m script calculates the trajectories of drifters using either forward or reverse particle tracking. In addition to the soda_drifter.m script, the user also needs to have a copy of the following two netcdf files that are read by soda_drifter.m:
+
+map1_velocity_2D_soda3_12_2_1980_2017_v20220421.nc
+map1_2D_PlankTOM12_A_1980-2018_v20220419.nc
+
+These two netcdf files are available to download from this link:
+
+
+
+The u and v velocity vectors used by soda_driter.m are read from a netcdf file that was made by running the following scripts:
 
 soda_v20.m 
 soda_write_netcdf_v20.m 
