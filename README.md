@@ -1,5 +1,5 @@
 # soda_drifter
-Matlab scripts to track the trajectories of passive drifters for any locations in the North Pacific Ocean using velocity vectors from SODA3.12.2 
+Matlab scripts to track the trajectories of passive drifters for any location and any time between 1980-2017 in the North Pacific Ocean using velocity vectors from SODA3.12.2 
 
 The soda_drifter.m script calculates the trajectories of drifters using either forward or reverse particle tracking. 
 
