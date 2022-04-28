@@ -20,3 +20,10 @@ https://drive.google.com/drive/folders/1IEhqOa8RSszXh-aHRGV7t2JSzICBKce7?usp=sha
 The repository also includes a soda_drifter_colormaps.zip file with two colormap functions that are needed to create the animations
 
 To install soda_drifter, copy the soda_drifter.m file to a working directory on your computer. Then unzip the colormap files to that same working folder. Then create a subfolder named 'nc' in your working folder and unzip the two netcdf files in that 'nc' folder. Then edit line 87 in soda_drifter.m so it represents your working directory. For example, if your working directory is 'c:\soda_drifter', then line 87 should be edited so it is 'cd 'C:\soda_drifter';'
+
+The user also needs to install the following three free matlab toolboxes from the followng links (m_map, gif, and export_fig) and edit their paths on line's 82-84 to reflect where they are stored on the user's computer:
+
+addpath(genpath('c:/matlab/m_map/'))  		% functions for making maps in Mercator projection https://www.eoas.ubc.ca/~rich/map.html
+addpath(genpath('c:/matlab/gif/'))  		% make animated gif https://www.mathworks.com/matlabcentral/fileexchange/63239-gif
+addpath(genpath('c:/matlab/export_fig/'))  	% needed by gif https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig
+
