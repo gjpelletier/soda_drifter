@@ -29,7 +29,7 @@ addpath(genpath('c:/matlab/gif/'))  		% make animated gif https://www.mathworks.
 
 addpath(genpath('c:/matlab/export_fig/'))  	% needed by gif https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig
 
-The soda_drifter.m package includes a function named drifter.m that was developed as a stand-alone function to track the trajectories of passive drifter particles in the ocean. The drifter.m function may be used outside of soda_drifter.m, and it calculates the trajectories of drifters using either forward or reverse particle tracking using Euler's method.
+The soda_drifter.m package includes a function named drifter.m that was developed as a stand-alone function to track the trajectories of passive drifter particles in the ocean. The drifter.m function is used by soda_drifter.m, and it may also be used outside of soda_drifter.m. It calculates the trajectories of drifters using either forward or reverse particle tracking using Euler's method.
 
 Inputs to and outputs from the drifter.m function are as follows:
 
