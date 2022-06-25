@@ -44,11 +44,11 @@ To install soda_drifter, do the following steps:
 
 5) The user also needs to install the following three free matlab toolboxes from the followng links (m_map, gif, and export_fig) and edit their paths on line's 157-159 to reflect where they are stored on the user's computer:
 
->> addpath(genpath('c:/matlab/m_map/')) % functions for making maps in Mercator projection https://www.eoas.ubc.ca/~rich/map.html 
+addpath(genpath('c:/matlab/m_map/')) % functions for making maps in Mercator projection https://www.eoas.ubc.ca/~rich/map.html 
 
->> addpath(genpath('c:/matlab/gif/')) % make animated gif https://www.mathworks.com/matlabcentral/fileexchange/63239-gif 
+addpath(genpath('c:/matlab/gif/')) % make animated gif https://www.mathworks.com/matlabcentral/fileexchange/63239-gif 
 
->> addpath(genpath('c:/matlab/export_fig/')) % needed by gif https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig
+addpath(genpath('c:/matlab/export_fig/')) % needed by gif https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig
 
 Output files from soda_drifter will be stored in subfolders named png, gif, and csv in your working directory
 
