@@ -7,13 +7,21 @@ The soda_drifter.m script calculates the trajectories of drifters using either f
 In addition to the soda_drifter.m script, the user also needs to have a copy of the following netcdf files that are read by soda_drifter.m:
 
 % SODAv3122_2D_K100_1980_2017_v20220606.nc
+
 % SODAv3122_2D_K200_1980_2017_v20220606.nc
+
 % SODAv3122_2D_KT100_1980_2017_v20220606.nc
+
 % SODAv3122_2D_KT200_1980_2017_v20220606.nc
+
 % woa_2D_monthly_no3_o2_aou_v20220610.nc
+
 % woa_nng_co2sys_2D_monthly_climatology_2005-2017_v20220608.nc
+
 % woa_mobo_nng_co2sys_2D_monthly_climatology_2005-2017_v20220604.nc
+
 % OceanSODA-ETHZ_GRaCER_v2021a_1982-2020.nc
+
 % ncei_ocads_integrated_aragonite_v20220512.nc
 
 These netcdf files are available to download from this link:
